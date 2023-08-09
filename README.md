@@ -15,14 +15,14 @@ copying it into the project directory.
 ### Testing
 
 The tasks in this category are responsible for deleting the old build of the plugin, generating the plugin description
-file required by Spigot, building the new one, copying it into the server, resetting the configuration files and
+file required by Spigot, building the new version, copying it into the server, resetting the configuration files and
 running the server.
 
 ## API
 
 This module is the library shaded into the plugin file and used at runtime. It provides a more user-friendly API for
-developing Spigot plugins. It supplies extensive, convenient, and powerful APIs for creating custom blocks,
-and commands, managing items, entities, recipes, and event listeners, formatting text, logging, and scheduling
+developing Spigot plugins. It supplies extensive, convenient, and powerful APIs for creating custom blocks, and
+commands, managing items, entities, recipes, and event listeners, formatting text, logging, and scheduling
 (a)synchronous tasks. It supplies an annotation-based configuration system, on top of which there is a registry system
 for managing the configuration files. It has an auto-updater and a localization system, which are extremely easy to
 integrate.
