@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/com.aregcraft.delta.delta.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/com.aregcraft.delta.delta.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/com.aregcraft.delta.delta.example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/example/com.aregcraft.delta.delta.example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/delta.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/delta.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/delta.example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/example/delta.example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/publisher/delta.publisher.iml" filepath="$PROJECT_DIR$/.idea/modules/publisher/delta.publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/publisher/delta.publisher.main.iml" filepath="$PROJECT_DIR$/.idea/modules/publisher/delta.publisher.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/publisher/delta.publisher.test.iml" filepath="$PROJECT_DIR$/.idea/modules/publisher/delta.publisher.test.iml" />
+    </modules>
+  </component>
+</project>
