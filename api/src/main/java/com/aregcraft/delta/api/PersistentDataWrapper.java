@@ -117,5 +117,22 @@ public class PersistentDataWrapper {
         public T fromPrimitive(String primitive, PersistentDataAdapterContext context) {
             return plugin.getGson().fromJson(primitive, complexType);
         }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) {
+                return true;
+            }
+            if (o == null || getClass() != o.getClass()) {
+                return false;
+            }
+            var that = (JsonPersistentDataType<?>) o;
+            return Objects.equals(complexType, that.complexType);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(complexType);
+        }
     }
 }

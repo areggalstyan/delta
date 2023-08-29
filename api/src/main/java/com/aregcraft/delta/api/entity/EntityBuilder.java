@@ -4,6 +4,7 @@ import com.aregcraft.delta.api.*;
 import com.aregcraft.delta.api.PersistentDataWrapper;
 import com.aregcraft.delta.api.item.ItemWrapper;
 import com.aregcraft.delta.api.util.CollectionMaps;
+import com.aregcraft.delta.api.util.Compatibility;
 import org.bukkit.Location;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeModifier;
@@ -187,7 +188,7 @@ public class EntityBuilder {
         entity.setGlowing(glowing);
         entity.setCanPickupItems(canPickupItems);
         entity.setInvulnerable(invulnerable);
-        entity.setVisualFire(visualFire);
+        Compatibility.setEntityVisualFire(entity, visualFire);
         if (entity instanceof Ageable ageable) {
             if (adult) {
                 ageable.setAdult();
