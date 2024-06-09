@@ -5,7 +5,7 @@ Delta is the backbone of my plugins: Reforging and Pets. It consists of three mo
 ## Plugin
 
 This module is a gradle plugin designed to aid in developing and testing Spigot plugins. There are two categories of
-tasks: preparation, testing.
+tasks: setup and testing.
 
 ### Setup
 
